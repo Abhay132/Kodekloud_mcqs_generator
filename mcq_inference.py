@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBWPTMnCtqvmKakAbq986aCO51ciVpUszM"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyAYN8ykyvmFDfJ2CZhU_7T-mhtHX3CQ62s"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-pro")
 
